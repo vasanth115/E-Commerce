@@ -1,0 +1,614 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harvest Hub</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header id="header">
+            <h2>Harvest <span>Hub</span></h2>
+            <div class="bx bx-menu" id="menu-icon"></div>
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#product">Products</a></li>
+                <li><a class="shopping" id="tooltip1">Cart</a><span id="tooltiptext1">0</span></li>
+                <li><a href="#aboutus">AboutUs</a></li>
+                <li><a href="#Feedback">FeedBack</a></li>
+                <li><a href="#ourteam">OurTerm</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="scrollToTop-btn flex-center">
+        <i class='bx bx-heart'></i>
+        <h3 id="heartcount">0</h3>
+        </span>
+    </div>
+    
+
+
+    <div id="fullcontainer">
+        <section class="home" id="home">
+            <img src="nature.jpg" alt="">
+                <div class="contenthome">
+                    <div class="waviy1">
+                        <span style="--i:1">H</span>
+                        <span style="--i:2">a</span>
+                        <span style="--i:3">r</span>
+                        <span style="--i:4">v</span>
+                        <span style="--i:5">e</span>
+                        <span style="--i:6">s</span>
+                        <span style="--i:7">t</span>
+                        <span style="--i:8">h</span>
+                        <span style="--i:9">u</span>
+                        <span style="--i:10">b</span>
+                       </div>
+                       <h2 align="justify">we're passionate about connecting you with the freshest and most delicious locally-sourced groceries. We believe that quality and sustainability go hand in hand, and that's why we work closely with local farmers and producers to bring you the best nature has to offer.....</h2>
+                </div>
+        </section>
+    
+        <section id="product">
+            <div class="heading">
+                <h1>OUR PRODUCTS</h1>
+                <h4>NEW ARRIVALS</h4>
+            </div>
+          <div class="productcontainer">
+              <div class="box" id="box1">
+                <div class="icon">
+                    <i class='bx bxs-heart'></i>
+                    <i class="fa fa-eye"></i>
+                </div>
+                <div id="tooltip">
+                    <img src="grapes.jpg" alt="" height="150px" width="150px">
+                    <span id="tooltiptext">
+                        <span>Calories: 104</span><br>
+                        <span>Protein: 1 gram</span><br>
+                        <span>Vitamin C: 5% of the DV</span><br>
+                        <span>Carbs: 27 grams</span>
+                    </span>
+                </div>
+                <h2>Grapes</h2>
+                <h3> &#8377<span id="rate">60</span>/kg</h3>
+                <p>Quantity : <input type="number" value="1" id="input"></p>
+                <button  id="add">Add To Cart</button>
+              </div>
+    
+              <div class="box" id="box2">
+                <div class="icon">
+                    <i class='bx bxs-heart'></i>
+                    <i class="fa fa-eye"></i>
+                </div>
+                <div id="tooltip">
+                    <img src="download.jpg" alt="" height="150px" width="150px">
+                    <span id="tooltiptext">
+                        <span>Calories: 27</span><br>
+                        <span>Vitamin K: 14% of the DV</span><br>
+                        <span>Fiber: 2 g</span><br>
+                        <span>Carbs: 20 grams</span>
+                    </span>
+                </div>
+                <h2>Cauliflower</h2>
+                <h3> &#8377<span id="rate">60</span>/kg</h3>
+                <p>Quantity : <input type="number" id="input" value="1"></p>
+                <button  id="add">Add To Cart</button>
+              </div>
+    
+              <div class="box" id="box3">
+                <div class="icon">
+                    <i class='bx bxs-heart'></i>
+                    <i class="fa fa-eye"></i>
+                </div>
+               <div id="tooltip">
+                    <img src="apple.jpg" alt="" height="150px" width="150px">
+                    <span id="tooltiptext">
+                        <span>Calories: 104</span><br>
+                        <span>Carbs: 28 g</span><br>
+                        <span>Fiber: 5 g</span><br>
+                    </span>
+                </div>
+                <h2>Apple</h2>
+                <h3> &#8377<span id="rate">200</span>/kg</h3>
+                <p>Quantity : <input type="number" value="1" id="input"></p>
+                <button id="add">Add To Cart</button>
+              </div>
+    
+              <div class="box" id="box4">
+                <div class="icon">
+                    <i class='bx bxs-heart'></i>
+                    <i class="fa fa-eye"></i>
+                </div>
+                <div id="tooltip">
+                    <img src="strawberry.jpg" alt="" height="150px" width="150px">
+                    <span id="tooltiptext">
+                        <span>Calories: 32</span><br>
+                        <span>water :91%</span><br>
+                        <span>Protein: 0.7 grams</span><br>
+                        <span>Carbs: 7.7 grams</span>
+                    </span>
+                </div>
+                <h2>Straw Berry</h2>
+                <h3> &#8377<span id="rate">150</span>/kg</h3>
+                <p>Quantity : <input type="number" value="1" id="input"></p>
+                <button  id="add">Add To Cart</button>
+              </div>
+    
+              <div class="box" id="box5">
+                <div class="icon">
+                    <i class='bx bxs-heart'></i>
+                    <i class="fa fa-eye"></i>
+                </div>
+                <div id="tooltip">
+                    <img src="potato.jpg" alt="" height="150px" width="150px">
+                    <span id="tooltiptext">
+                        <span>Calories: 87</span><br>
+                        <span>Water :81%</span><br>
+                        <span>Fiber: 1.8 grams</span><br>
+                        <span>Carbs: 20.1 grams</span>
+                    </span>
+                </div>
+                <h2>Potato</h2>
+                <h3> &#8377<span id="rate">40</span>/kg</h3>
+                <p>Quantity : <input type="number" value="1" id="input"></p>
+                <button id="add">Add To Cart</button>
+              </div>
+    
+              <div class="box" id="box6">
+                <div class="icon">
+                    <i class='bx bxs-heart'></i>
+                    <i class="fa fa-eye"></i>
+                </div>
+                <div id="tooltip">
+                    <img src="tomoto.jpg" alt="" height="150px" width="150px">
+                    <span id="tooltiptext">
+                        <span>Calories: 18</span><br>
+                        <span>Water :95%</span><br>
+                        <span>Fiber: 1.2 g</span><br>
+                        <span>Carbs: 3.9 grams</span>
+                    </span>
+                </div>
+                <h2>Tomoto</h2>
+                <h3> &#8377<span id="rate">60</span>/kg</h3>
+                <p>Quantity : <input type="number" value="1" id="input"></p>
+                <button  id="add">Add To Cart</button>
+              </div>
+    
+              <div class="box" id="box7">
+                <div class="icon">
+                    <i class='bx bxs-heart'></i>
+                    <i class="fa fa-eye"></i>
+                </div>
+                <div id="tooltip">
+                    <img src="watermelon.jpg" alt="" height="150px" width="150px">
+                    <span id="tooltiptext">
+                        <span>Calories: 30</span><br>
+                        <span>Water :90%</span><br>
+                        <span>Fiber: 4 g</span><br>
+                        <span>Carbs: 7.6 grams</span>
+                    </span>
+                </div>
+                <h2>Watermelon</h2>
+                <h3> &#8377<span id="rate">80</span>/kg</h3>
+                <p>Quantity : <input type="number" value="1" id="input"></p>
+                <button  id="add">Add To Cart</button>
+              </div>
+    
+              <div class="box" id="box8">
+                <div class="icon">
+                    <i class='bx bxs-heart'></i>
+                    <i class="fa fa-eye"></i>
+                </div>
+                <div id="tooltip">
+                    <img src="papaya.jpg" alt="" height="150px" width="150px">
+                    <span id="tooltiptext">
+                        <span>Calories: 59</span><br>
+                        <span>Protein: 1 gram</span><br>
+                        <span>Fiber: 3 g</span><br>
+                        <span>Carbs: 15 grams</span>
+                    </span>
+                </div>
+                <h2>Papaya</h2>
+                <h3> &#8377<span id="rate">80</span>/kg</h3>
+                <p>Quantity : <input type="number" value="1" id="input"></p>
+                <button  id="add">Add To Cart</button>
+              </div>
+    
+              <div class="box" id="box9">
+                <div class="icon">
+                    <i class='bx bxs-heart'></i>
+                    <i class="fa fa-eye"></i>
+                </div>
+                <div id="tooltip">
+                    <img src="mango.jpg" alt="" height="150px" width="150px">
+                    <span id="tooltiptext">
+                        <span>Calories: 99</span><br>
+                        <span>Protein: 1.4 grams</span><br>
+                        <span>Fiber: 2.6 g</span><br>
+                        <span>Carbs: 24.7 grams</span>
+                    </span>
+                </div>
+                <h2>Mango</h2>
+                <h3> &#8377<span id="rate">150</span>/kg</h3>
+                <p>Quantity : <input type="number" value="1" id="input"></p>
+                <button   id="add">Add To Cart</button>
+              </div>
+    
+              <div class="box" id="box10">
+                <div class="icon">
+                    <i class='bx bxs-heart'></i>
+                    <i class="fa fa-eye"></i>
+                </div>
+                <div id="tooltip">
+                    <img src="carrot.jpg" alt="" height="150px" width="150px">
+                    <span id="tooltiptext">
+                        <span>Calories: 41</span><br>
+                        <span>Water :88%</span><br>
+                        <span>Fiber: 2.8 g</span><br>
+                        <span>Carbs: 9.6 grams</span>
+                    </span>
+                </div>
+                <h2>Carrot</h2>
+                <h3> &#8377<span id="rate">50</span>/kg</h3>
+                <p>Quantity : <input type="number" value="1" id="input"></p>
+                <button  id="add">Add To Cart</button>
+              </div>
+    
+              <div class="box" id="box11">
+                <div class="icon">
+                    <i class='bx bxs-heart'></i>
+                    <i class="fa fa-eye"></i>
+                </div>
+                <div id="tooltip">
+                    <img src="brinjal.jpg" alt="" height="150px" width="150px">
+                    <span id="tooltiptext">
+                        <span>Calories: 20</span><br>
+                        <span>Protein: 1 gram</span><br>
+                        <span>Fiber: 3 g</span><br>
+                        <span>Carbs: 5 grams</span>
+                    </span>
+                </div>
+                <h2>Brinjal</h2>
+                <h3> &#8377<span id="rate">40</span>/kg</h3>
+                <p>Quantity : <input type="number" value="1" id="input"></p>
+                <button  id="add">Add To Cart</button>
+              </div>
+    
+              <div class="box" id="box12">
+                <div class="icon">
+                    <i class='bx bxs-heart'></i>
+                    <i class="fa fa-eye"></i>
+                </div>
+                <div id="tooltip">
+                    <img src="ladiesfinger.jpg" alt="" height="150px" width="150px">
+                    <span id="tooltiptext">
+                        <span>Calories: 35</span><br>
+                        <span>Protein: 1.9 g</span><br>
+                        <span>Fiber: 6.4 g</span><br>
+                        <span>Carbs:  grams</span>
+                    </span>
+                </div>
+                <h2>Ladies Finger</h2>
+                <h3> &#8377<span id="rate">60</span>/kg</h3>
+                <p>Quantity : <input type="number" value="1" id="input"></p>
+                <button  id="add">Add To Cart</button>
+              </div>
+    
+              <div class="box" id="box13">
+                <div class="icon">
+                    <i class='bx bxs-heart'></i>
+                    <i class="fa fa-eye"></i>
+                </div>
+                <div id="tooltip">
+                    <img src="mushroom.jpg" alt="" height="150px" width="150px">
+                    <span id="tooltiptext">
+                        <span>Vitamin D.</span><br>
+                        <span>Vitamin B</span><br>
+                        <span>Fiber: 1 g</span><br>
+                        <span>Carbs: 28 grams</span>
+                    </span>
+                </div>
+                <h2>Mushroom</h2>
+                <h3> &#8377<span id="rate">70</span>/kg</h3>
+                <p>Quantity : <input type="number" value="1" id="input"></p>
+                <button  id="add">Add To Cart</button>
+              </div>
+    
+              <div class="box" id="box14">
+                <div class="icon">
+                    <i class='bx bxs-heart'></i>
+                    <i class="fa fa-eye"></i>
+                </div>
+                <div id="tooltip">
+                    <img src="babycorn.jpg" alt="" height="150px" width="150px">
+                    <span id="tooltiptext">
+                        <span>Vitamin : A</span><br>
+                        <span>Vitamin B</span><br>
+                    </span>
+                </div>
+                <h2>Baby Corn</h2>
+                <h3> &#8377<span id="rate">50</span>/kg</h3>
+                <p>Quantity : <input type="number" value="1" id="input"></p>
+                <button  id="add">Add To Cart</button>
+              </div>
+    
+              <div class="box" id="box15">
+                <div class="icon">
+                    <i class='bx bxs-heart'></i>
+                    <i class="fa fa-eye"></i>
+                </div>
+                <div id="tooltip">
+                    <img src="capsicum.jpg" alt="" height="150px" width="150px">
+                    <span id="tooltiptext">
+                        <span>Calories: 31</span><br>
+                        <span>Water :81%</span><br>
+                        <span>Fiber: 2 g</span><br>
+                        <span>Carbs: 6 grams</span>
+                    </span>
+                </div>
+                <h2>Capsicum</h2>
+                <h3> &#8377<span id="rate">20</span>/kg</h3>
+                <p>Quantity : <input type="number" value="1" id="input"></p>
+                <button  id="add">Add To Cart</button>
+              </div>
+
+              <div class="box" id="box16">
+                <div class="icon">
+                    <i class='bx bxs-heart'></i>
+                    <i class="fa fa-eye"></i>
+                </div>
+                <div id="tooltip">
+                    <img src="goa.jpg" alt="" height="150px" width="150px">
+                    <span id="tooltiptext">
+                        <span>Calories: 21</span><br>
+                        <span>Water :41%</span><br>
+                        <span>Fiber: 2 g</span><br>
+                        <span>Carbs: 2 grams</span>
+                    </span>
+                </div>
+                <h2>Guava</h2>
+                <h3> &#8377<span id="rate">50</span>/kg</h3>
+                <p>Quantity : <input type="number" value="1" id="input"></p>
+                <button id="add">Add To Cart</button>
+              </div>
+          </div>
+        </section>
+    
+    
+        <!-- about Us Page -->
+    
+        <p id="aboutus"></p>
+        <br>
+        <section id="about">
+                <h1>ABOUT US</h1>
+              <div class="about-text">
+                <div class="report">
+                    <p align="justify">Welcome to Harvest Hub, an online ecommerce site for providing fresh farm product to customers in no time with zero delivery charges.We at Harvest Hub care for the health and diet plans of our customers so we are Happy to serve them. Harvest Hub is approved by quality control department.All products offer by Harvest Hub are 100% organic.</p>
+                    <span>Our Passion for Natural Goodness :</span>
+                    <p align="justify">At NaturalVeges, we are passionate about providing you with vegetables that are as close to nature as possible. We believe that the key to a healthy and fulfilling life starts with the food you consume. Our commitment is to offer you a wide range of natural vegetables that are free from harmful chemicals and pesticides.</p>
+                </div>
+                <div class="ratingsbar">
+                    <div class="ratingcontainer">
+                        <div class="bars">
+                            <div class="bars-box">
+                                <h3>Delivery-rate</h3>
+                                <span>90%</span>
+                                <div class="light-bar"></div>
+                                <div class="percent-bar delivery-bar"></div>
+                            </div>
+                        </div>
+                        <div class="bars">
+                            <div class="bars-box">
+                                <h3>Customers Growth <span>ㅤ</span></h3>
+                                <span>95%</span>
+                                <div class="light-bar"></div>
+                                <div class="percent-bar growth-bar"></div>
+                            </div>
+                        </div>
+                        <div class="bars">
+                            <div class="bars-box">
+                                <h3>Happy Employee</h3>
+                                <span>85%</span>
+                                <div class="light-bar"></div>
+                                <div class="percent-bar happy-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="services">
+                   <h1>OUR SERVICES</h1>
+                   <div class="icons">
+                      <div class="iconsection">
+                        <div class="iconcenter">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <h4> 24 X 7 SERVICES</h4>
+                        <h5>Order related Queries</h5>
+                      </div>
+                      <div class="iconsection">
+                       <div class="iconcenter">
+                        <i class="fa fa-shopping-cart"></i>
+                       </div>
+                        <h4> NO RETURN POLICY</h4>
+                        <h5>of reciving your Order</h5>
+                      </div>
+                      <div class="iconsection">
+                        <div class="iconcenter">
+                            <i class="fa fa-truck"></i>
+                        </div>
+                        <h4> GET FREE DELIVERY</h4>
+                        <h5>on order above 300 rupees</h5>
+                      </div>
+                   </div>
+              </div>
+        </section>
+
+
+        <!-- feedback section -->
+        <!-- <p id="Feedback"></p>
+        <br> -->
+        <section class="feedback" id="Feedback">
+            <h1>Feedback</h1>
+            <div class="sys">
+            <div class="wrapper">
+                <h3>Feedback About The Above Content</h3>
+                <div>
+                    <div class="rating">
+                        <input type="number" name="rating" hidden>
+                        <i class='bx bx-star star' style="--i:0;"></i>
+                        <i class='bx bx-star star' style="--i:1;"></i>
+                        <i class='bx bx-star star' style="--i:2;"></i>
+                        <i class='bx bx-star star' style="--i:3;"></i>
+                        <i class='bx bx-star star' style="--i:4;"></i>
+                    </div>
+                    <textarea name="opinion"  rows="7" placeholder="Your opinion..."></textarea>
+                    <div class="btn-group">
+                        <button class="btn submit" id="star">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+    
+        <p id="ourteam"></p>
+        <br>
+        <section  class="ourteam">
+            <div class="container-team">
+                <h1 class="name">OUR TEAM</h1>
+                <div class="photos">
+                    <div class="box-items">
+                        <div class="img">
+                            <img src="profile1.jpg" alt="">
+                            <div class="overlay">
+                                <i class="fa fa-user"></i>
+                                <button class="profile-btn"><a href="https://vasanth115.github.io/vasanthk/">View Portfolio</a></button>
+                            </div>
+                        </div>
+                        <h4 class="waviy">
+                            <span style="--i:1">V</span>
+                            <span style="--i:2">A</span>
+                            <span style="--i:3">S</span>
+                            <span style="--i:4">A</span>
+                            <span style="--i:5">n</span>
+                            <span style="--i:6">T</span>
+                            <span style="--i:7">H</span>
+                            <span style="--i:8"> </span>
+                            <span style="--i:9"> </span>
+                            <span style="--i:10">K</span>
+                        </h4>
+                        <p>Front-end & Back-end</p>
+                         <div class="iconoverlay">
+                            <a href="https://instagram.com/_ig_vasanth_2004_?igshid=NTc4MTIwNjQ2YQ== "><i class='bx bxl-instagram'></i></a>
+                            <a href="https://www.linkedin.com/in/v%E1%B4%80s%E1%B4%80%C9%B4%D1%82%D0%BD-k-51647a22a "><i class='bx bxl-linkedin-square'></i></a>
+                            <a href="https://github.com/vasanth115 "><i class='bx bxl-github'></i></a>
+                         </div>
+                    </div>
+                    <div class="box-items">
+                        <div class="img">
+                            <img src="my.png" alt="">
+                            <div class="overlay">
+                                <i class="fa fa-user"></i>
+                                <button class="profile-btn"><a href="https://sutharsan879.github.io/Portfolio/">View Portfolio</a></button>
+                            </div>
+                        </div>
+                        <h4 class="waviy">
+                            <span style="--i:1">S</span>
+                            <span style="--i:2">U</span>
+                            <span style="--i:3">T</span>
+                            <span style="--i:4">H</span>
+                            <span style="--i:5">A</span>
+                            <span style="--i:6">R</span>
+                            <span style="--i:7">S</span>
+                            <span style="--i:8">A</span>
+                            <span style="--i:9">N</span>
+                            <span style="--i:10"> </span>
+                            <span style="--i:11"> </span>
+                            <span style="--i:12">M</span>
+                        </h4>
+                        <p>Front-end</p>
+                        <div class="iconoverlay">
+                            <a href="https://instagram.com/sutharsan879?igshid=MzNlNGNkZWQ4Mg=="><i class='bx bxl-instagram'></i></a>
+                            <a href="https://www.linkedin.com/in/sutharsan-m-933a02229"><i class='bx bxl-linkedin-square'></i></a>
+                            <a href="https://github.com/sutharsan879"><i class='bx bxl-github'></i></a>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2023 Harvest Hub . All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/yourinstagram" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.twitter.com/yourtwitter" target="_blank"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.facebook.com/yourfacebook" target="_blank"><i class='bx bxl-facebook-square'></i></a>
+            </div>
+        </footer>
+
+    </div>
+    <div class="card">
+        <h1>Cart</h1>
+        <ul class="listcards" id="listcards">
+        </ul>
+        <div class="checkout" id="cheakout">
+            <button class="total" id="open-popup">Buy Now</button>
+            <div class="closeshopping">Close</div>
+        </div>
+    </div>
+
+    <div id="popup-box">
+      <button id="close-popup">X</button>
+      <h1>CONFIRM ORDER</h1>
+      <div class="content">
+        <div class="qr">
+            <img src="qrcode.png" alt="" height="150px" width="150px">
+            <p>pay via qr code</p>
+        </div>
+          <div class="select">
+            <h3>Payment Mode</h3>
+           <p> <input type="radio" id="Paytm" name="fav_language" value="HTML"> Paytm</p>
+           <p> <input type="radio" id="G-Pay" name="fav_language" value="HTML"> G-Pay</p>
+           <p> <input type="radio" id="Phone-pay" name="fav_language" value="HTML"> Phone-pay</p>
+           <input type="text" placeholder="Enter UPI">
+          </div>
+      </div>
+      <div class="totalcost">
+         <h2>Total cost : <span id="totalammount"></span></h2>
+      </div>
+      <div class="buttons">
+        <button  class="make_pay">Conform Payment</button>
+      </div>
+    </div>
+
+    <div class="success" id="success">
+        <div class="tick">
+            <img src="order1.gif" alt="" width="250px" height="175px">
+        </div>
+        <div class="successcontent">
+           <p>Thank you for the Payment</p>
+        </div>
+        <button id="okbutton">OK</button>
+    </div>
+
+    <div id="popup-box1">
+        <button id="close-popup1">X</button>
+        <h1>DETAILS</h1>
+        <form action="mailto:sutharsanmcse2022@ksrce.ac.in">
+            <input type="text" placeholder="Name" required id="username">
+            <input type="text" placeholder="Mobile-Number" required id="Mobile-Number">
+            <input type="email" placeholder="E-Mail" required id="mail">
+            <textarea name="address" id="adddresspart" cols="30" rows="5" placeholder="Address" required></textarea>
+        </form>
+       <div class="submitbutton">
+        <button id="submit">MakePayment</button>
+       </div>
+      </div>
+
+      <script type="module" src="index.js"></script>
+</body>
+</html>
